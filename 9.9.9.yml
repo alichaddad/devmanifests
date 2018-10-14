@@ -15,7 +15,7 @@ repos:
     source:
        branch: staging
     target:
-       branch: master
+       branch: no_hrd
     url: https://github.com/0-complexity/g8vdc
   - name: OpenvCloud 0-Access
     source:
