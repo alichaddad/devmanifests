@@ -9,13 +9,13 @@ repos:
     source:
        branch: nohrd
     target:
-       branch: installer-systemd
+       branch: no_hrd
     url: https://github.com/0-complexity/openvcloud_installer
   - name: OpenvCloud Frontend
     source:
        branch: staging
     target:
-       branch: no_hrd
+       branch: master
     url: https://github.com/0-complexity/g8vdc
   - name: OpenvCloud 0-Access
     source:
