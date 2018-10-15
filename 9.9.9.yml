@@ -3,13 +3,13 @@ repos:
     source:
        branch: staging
     target:
-       branch: nohrd
+       branch: master
     url: https://github.com/0-complexity/openvcloud
   - name: OpenvCloud Installer
     source:
        branch: nohrd
     target:
-       branch: no_hrd
+       branch: installer-systemd
     url: https://github.com/0-complexity/openvcloud_installer
   - name: OpenvCloud Frontend
     source:
@@ -27,7 +27,7 @@ repos:
     source:
        branch: staging
     target:
-       branch: no_hrd
+       branch: master
     url: https://github.com/0-complexity/selfhealing
   - name: OpenvCloud noVNC
     source:
@@ -39,13 +39,13 @@ repos:
     source:
        branch: staging
     target:
-       branch: no_hrd
+       branch: master
     url: https://github.com/jumpscale7/jumpscale_core7
   - name: JumpScale Portal
     source:
        branch: staging
     target:
-       branch: hrdfree
+       branch: master
     url: https://github.com/jumpscale7/jumpscale_portal
   - name: Python Binaries
     source:
