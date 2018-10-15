@@ -75,6 +75,7 @@ repos:
 images:
   openvcloud/cb_master: dev
   openvcloud/js7: latest
+  openvcloud/base: latest
   openvcloud/grafana-init: latest
   openvcloud/syncthing_sidecar: latest
   openvcloud/pxeboot: latest
