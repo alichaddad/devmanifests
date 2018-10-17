@@ -39,7 +39,7 @@ repos:
     source:
        branch: staging
     target:
-       branch: osis_server
+       branch: master
     url: https://github.com/jumpscale7/jumpscale_core7
   - name: JumpScale Portal
     source:
