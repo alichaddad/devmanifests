@@ -9,13 +9,13 @@ repos:
     source:
        branch: master
     target:
-       branch: master
+       branch: kube_1.13
     url: git@git.gig.tech:openvcloud/openvcloud_installer
   - name: OpenvCloud Frontend
     source:
        branch: staging
     target:
-       branch: kube_1.13
+       branch: master
     url: git@git.gig.tech:openvcloud/g8vdc
   - name: OpenvCloud 0-Access
     source:
