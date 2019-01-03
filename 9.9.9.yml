@@ -15,7 +15,7 @@ repos:
     source:
        branch: staging
     target:
-       branch: master
+       branch: kube_1.13
     url: git@git.gig.tech:openvcloud/g8vdc
   - name: OpenvCloud 0-Access
     source:
