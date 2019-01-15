@@ -76,7 +76,7 @@ images:
   ovcimages/openvcloud/nginx-init: latest
   ovcimages/openvcloud/0-access: latest
   ovcimages/openvcloud/management: alibuild
-  ovcimages/openvcloud/apt-mirror: alibuild
+  ovcimages/openvcloud/apt-mirror: latest
   ovcimages/openvcloud/ovc-versions: latest
   ovcimages/3rdparty/grafana: 5.0.0
   ovcimages/3rdparty/mongo: 3.7.2
