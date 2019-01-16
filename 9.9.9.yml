@@ -33,7 +33,7 @@ repos:
     source:
        branch: staging
     target:
-       branch: master
+       branch: 246_patches
     url: git@git.gig.tech:openvcloud/jumpscale/jumpscale_core7
   - name: JumpScale Portal
     source:
