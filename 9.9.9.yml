@@ -9,7 +9,7 @@ repos:
     source:
        branch: master
     target:
-       branch: kube_1.13
+       branch: test_isntaller
     url: git@git.gig.tech:openvcloud/openvcloud_installer
   - name: OpenvCloud Frontend
     source:
@@ -75,7 +75,7 @@ images:
   ovcimages/openvcloud/nginx: latest
   ovcimages/openvcloud/nginx-init: latest
   ovcimages/openvcloud/0-access: latest
-  ovcimages/openvcloud/management: alibuild
+  ovcimages/openvcloud/management: latest
   ovcimages/openvcloud/apt-mirror: latest
   ovcimages/openvcloud/ovc-versions: latest
   ovcimages/3rdparty/grafana: 5.0.0
