@@ -3,13 +3,13 @@ repos:
     source:
        branch: staging
     target:
-       branch: master
+       branch: net-harden
     url: git@git.gig.tech:openvcloud/openvcloud
   - name: OpenvCloud Installer
     source:
        branch: master
     target:
-       branch: test_isntaller
+       branch: master
     url: git@git.gig.tech:openvcloud/openvcloud_installer
   - name: OpenvCloud Frontend
     source:
@@ -33,7 +33,7 @@ repos:
     source:
        branch: staging
     target:
-       branch: 246_patches
+       branch: master
     url: git@git.gig.tech:openvcloud/jumpscale/jumpscale_core7
   - name: JumpScale Portal
     source:
