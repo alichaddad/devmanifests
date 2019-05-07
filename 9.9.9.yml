@@ -3,13 +3,13 @@ repos:
     source:
        branch: staging
     target:
-       branch: ipsec
+       branch: ipsec_fixes
     url: git@git.gig.tech:openvcloud/openvcloud
   - name: OpenvCloud Installer
     source:
        branch: master
     target:
-       branch: ipsec_template
+       branch: master
     url: git@git.gig.tech:openvcloud/openvcloud_installer
   - name: OpenvCloud Frontend
     source:
