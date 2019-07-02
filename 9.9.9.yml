@@ -45,7 +45,7 @@ repos:
     source:
        branch: master
     target:
-       tag: v2.5.1
+       branch: 7.5.3
     url: git@git.gig.tech:openvcloud/binary/python
   - name: OpenvStorage Branding
     source:
