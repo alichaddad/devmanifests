@@ -39,13 +39,13 @@ repos:
     source:
        branch: master
     target:
-       tag: v7.5.3
+       branch: 7.5.3
     url: git@git.gig.tech:openvcloud/jumpscale/jumpscale_portal
   - name: Python Binaries
     source:
        branch: master
     target:
-       branch: 7.5.3
+       tag: v2.5.1
     url: git@git.gig.tech:openvcloud/binary/python
   - name: OpenvStorage Branding
     source:
