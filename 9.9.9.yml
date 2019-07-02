@@ -1,64 +1,70 @@
 repos:
   - name: OpenvCloud Core
     source:
-       branch: staging
+       branch: master
     target:
-       branch: ipsec_fixes
+       branch: main_vfwmove
     url: git@git.gig.tech:openvcloud/openvcloud
   - name: OpenvCloud Installer
     source:
        branch: master
     target:
-       branch: master
+       tag: v2.5.3
     url: git@git.gig.tech:openvcloud/openvcloud_installer
-  - name: OpenvCloud Frontend
+  - name: OpenvCloud Frontend 
     source:
-       branch: staging
-    target:
        branch: master
+    target:
+       tag: v2.5.1
     url: git@git.gig.tech:openvcloud/g8vdc
   - name: OpenvCloud 0-Access
     source:
        branch: master
     target:
-       branch: master
+       tag: v2.5.1
     url: git@git.gig.tech:openvcloud/0-access
   - name: OpenvCloud noVNC
     source:
-       branch: staging
+       branch: master
     target:
        branch: 0.5.1
     url: git@git.gig.tech:openvcloud/noVNC
   - name: JumpScale Core
     source:
-       branch: staging
-    target:
        branch: master
+    target:
+       tag: v7.5.3.1
     url: git@git.gig.tech:openvcloud/jumpscale/jumpscale_core7
   - name: JumpScale Portal
     source:
-       branch: staging
-    target:
        branch: master
+    target:
+       tag: v7.5.3
     url: git@git.gig.tech:openvcloud/jumpscale/jumpscale_portal
   - name: Python Binaries
     source:
-       branch: staging
-    target:
        branch: master
+    target:
+       tag: v2.5.1
     url: git@git.gig.tech:openvcloud/binary/python
   - name: OpenvStorage Branding
     source:
-       branch: staging
-    target:
        branch: master
+    target:
+       tag: v2.5.0
     url: git@git.gig.tech:openvcloud/binary/openvstorage_branding
   - name: RouterOS Binary
     source:
-       branch: staging
-    target:
        branch: master
+    target:
+       tag: v2.5.0
     url: git@git.gig.tech:openvcloud/binary/routeros
+  - name: Kubespray
+    source:
+       branch: 25_patch_releases
+    target:
+       tag: v2.5.0
+    url: git@git.gig.tech:openvcloud/kubespray
 
 images:
   ovcimages/openvcloud/cb_master: latest
