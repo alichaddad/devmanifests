@@ -3,7 +3,7 @@ repos:
     source:
        branch: master
     target:
-       branch: main_vfwmove
+       branch: 2.5.3_patch_releases
     url: git@git.gig.tech:openvcloud/openvcloud
   - name: OpenvCloud Installer
     source:
@@ -33,7 +33,7 @@ repos:
     source:
        branch: master
     target:
-       tag: v7.5.3.1
+       branch: 7.5.3_patch_releases
     url: git@git.gig.tech:openvcloud/jumpscale/jumpscale_core7
   - name: JumpScale Portal
     source:
