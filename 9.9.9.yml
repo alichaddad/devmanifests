@@ -9,7 +9,7 @@ repos:
     source:
        branch: master
     target:
-       tag: v2.5.3
+       branch: ovs_update
     url: git@git.gig.tech:openvcloud/openvcloud_installer
   - name: OpenvCloud Frontend 
     source:
