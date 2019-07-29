@@ -15,19 +15,19 @@ repos:
     source:
        branch: master
     target:
-       tag: v2.5.1
+       branch: master
     url: git@git.gig.tech:openvcloud/g8vdc
   - name: OpenvCloud 0-Access
     source:
        branch: master
     target:
-       tag: v2.5.1
+       branch: master
     url: git@git.gig.tech:openvcloud/0-access
   - name: OpenvCloud noVNC
     source:
        branch: master
     target:
-       branch: 0.5.1
+       branch: master
     url: git@git.gig.tech:openvcloud/noVNC
   - name: JumpScale Core
     source:
@@ -39,31 +39,31 @@ repos:
     source:
        branch: master
     target:
-       branch: 7.5.3
+       branch: master
     url: git@git.gig.tech:openvcloud/jumpscale/jumpscale_portal
   - name: Python Binaries
     source:
        branch: master
     target:
-       tag: v2.5.1
+       branch: master
     url: git@git.gig.tech:openvcloud/binary/python
   - name: OpenvStorage Branding
     source:
        branch: master
     target:
-       tag: v2.5.0
+       branch: master
     url: git@git.gig.tech:openvcloud/binary/openvstorage_branding
   - name: RouterOS Binary
     source:
        branch: master
     target:
-       tag: v2.5.0
+       branch: master
     url: git@git.gig.tech:openvcloud/binary/routeros
   - name: Kubespray
     source:
        branch: 25_patch_releases
     target:
-       tag: v2.5.0
+       branch: master
     url: git@git.gig.tech:openvcloud/kubespray
 
 images:
